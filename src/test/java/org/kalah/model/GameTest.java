@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class GameTest {
 
   @Test
-  void testGameEndsWithWin() {
+  void testGameEndsWithPlayer2Win() {
     Game game = Game.create(2, 1);
     assertEquals(Game.GameStatus.IN_PROGRESS, game.getStatus());
     assertEquals(PlayerType.PLAYER1, game.getCurrentPlayer().getPlayerType());
