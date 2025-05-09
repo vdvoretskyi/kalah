@@ -11,7 +11,7 @@ This is a console-based implementation of the Kalah game. Players can choose dif
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/kalah-game.git
+   git clone https://github.com/vdvoretskyi/kalah.git
    cd kalah
 2. Build the project:
    ```bash
